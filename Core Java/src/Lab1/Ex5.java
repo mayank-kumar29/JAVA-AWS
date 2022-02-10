@@ -8,16 +8,9 @@ public class Ex5
 		for(int i=0;i<=n;i++) 
 		{
 			k=0;
-			for(int j=1;j<=i;j++)
+			if(i%3==0 || i%5==0)
 			{
-				if(i%3==0)
-				{
-					k++;
-				}
-				if(i%5==0)
-				{
-					k++;
-				}
+				k++;
 			}
 			if(k>0) 
 			{
