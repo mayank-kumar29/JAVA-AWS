@@ -20,7 +20,7 @@ public class Ex2
 		String str = new String();
 		System.out.println("Enter the string:");
 		str = sc.nextLine();
-		System.out.println("Result string:"+getImage(str));
+		System.out.println("Resulting string:"+getImage(str));
 	}
 
 }

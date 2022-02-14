@@ -24,7 +24,7 @@ public class Ex3
 		String str = new String();
 		System.out.println("Enter the string:");
 		str = sc.nextLine();
-		System.out.println("Result string:"+alterString(str));
+		System.out.println("Resulting string:"+alterString(str));
 	}
 
 }
